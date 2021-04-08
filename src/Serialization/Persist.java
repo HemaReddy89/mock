@@ -27,7 +27,8 @@ public class Persist {
 			  out.flush();  
 			  //closing the stream  
 			  out.close();  
-			  System.out.println("success");  
+			  System.out.println("success");
+			  System.out.println("message");
 			  }catch(Exception e){System.out.println(e);}  
 	}
 
